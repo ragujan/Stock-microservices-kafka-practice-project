@@ -17,10 +17,10 @@ public class MessagingController {
         System.out.println("send message "+message);
         return "Message sent!";
     }
-    @GetMapping("/send")
-    public String sendMessage(@RequestParam("message") String message) {
-        System.out.println("send message "+message);
-        kafkaSender.send("test-topic", message);
-        return "Message sent!";
-    }
+//    @GetMapping("/send")
+//    public String sendMessage(@RequestParam("message") String message) {
+//        System.out.println("send message "+message);
+//        kafkaSender.send("test-topic", message);
+//        return "Message sent!";
+//    }
 }
