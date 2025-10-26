@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### local config files
+stock-producer/src/main/resources/application-main.properties
+stock-consumer/src/main/resources/application-main.properties
