@@ -1,6 +1,7 @@
 package com.rag.stock_producer;
 
 
+import com.rag.stock_producer.service.KafkaSender;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

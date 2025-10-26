@@ -1,4 +1,4 @@
-package com.rag.stock_producer;
+package com.rag.stock_producer.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -1,4 +1,4 @@
-package com.rag.stock_producer;
+package com.rag.stock_producer.service;
 
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
