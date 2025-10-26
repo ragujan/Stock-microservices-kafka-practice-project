@@ -15,20 +15,26 @@ This project demonstrates:
 ## Project Structure
 
 stock-microservices-kafka-practice-project/
+```markdown
+
+root-project
 ├─ stock-producer/
-    |- src/
-        ├─ main/
-        │   ├─ java/
-        │   └─ resources/
-    |-pom.xml
-├─ stock-consumer/        
-    |- src/
-        ├─ main/
-        │   ├─ java/
-        │   └─ resources/
-    |-pom.xml
-├─ build.gradle / pom.xml  
+|- src/
+├─ main/
+│   ├─ java/
+│   └─ resources/
+|-pom.xml
+├─ stock-consumer/
+|- src/
+├─ main/
+│   ├─ java/
+│   └─ resources/
+|-pom.xml
+├─ build.gradle / pom.xml
 └─ settings.gradle / settings.gradle.kts
+
+
+```
 
 ## Setup Instructions
 1. **Clone the repository**:
