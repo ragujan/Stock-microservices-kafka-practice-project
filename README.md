@@ -1,4 +1,4 @@
-# stock-microservices-kafka-practice-project
+# Stock-microservices-kafka-practice-project
 This is a **multi-module Spring Boot project** for practicing **Kafka-based messaging** using a simulated stock price feed.
 
 It includes:
@@ -39,7 +39,7 @@ root-project
 ## Setup Instructions
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ragujan/stock-microservices-kafka-practice-project.git
+   git clone https://github.com/ragujan/Stock-microservices-kafka-practice-project.git
    ```
 2. **Navigate to the project directory**:
 3. Run the docker-compose to start Kafka in KRaft mode  :
